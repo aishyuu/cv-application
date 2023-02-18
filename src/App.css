@@ -1,0 +1,37 @@
+@font-face {
+  font-family: junegull;
+  src: url(assets/fonts/junegull.ttf);
+}
+
+* {
+  margin: 0;
+}
+
+.headerContainer {
+  background-color: #C5D8D1;
+  padding: 20px;
+}
+
+.headerText {
+  font-family: 'junegull', serif;
+  font-size: 3.5rem;
+  text-align: center;
+}
+
+.inputContainer {
+  border: 1px solid gray;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
+  background-color: rgb(237, 237, 237);
+}
+
+input {
+  border: 0;
+  border-radius: 0.3rem;
+  width: 80%;
+}
+
+textarea {
+  width: 80%;
+}
