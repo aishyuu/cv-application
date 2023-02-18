@@ -22,7 +22,7 @@
   border: 1px solid gray;
   width: 90%;
   text-align: center;
-  margin: 0 auto;
+  margin: 24px auto;
   background-color: rgb(237, 237, 237);
 }
 
@@ -34,4 +34,11 @@ input {
 
 textarea {
   width: 80%;
+}
+
+.dummyDataButton, .resetButton {
+  display: block;
+  width: 80%;
+  margin: 10px auto;
+  font-size: 1.5rem;
 }

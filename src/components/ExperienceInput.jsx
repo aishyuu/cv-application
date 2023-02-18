@@ -37,7 +37,7 @@ export default function ExperienceInput(props) {
                     name="experienceStart"
                     value={props.state.experienceStart}
                     onChange={props.handleChange}
-                    placeHolder="Start Date"
+                    placeholder="Start Date"
                 />
             </div>
             <div className="infoInput">
@@ -46,7 +46,7 @@ export default function ExperienceInput(props) {
                     name="experienceTo"
                     value={props.state.experienceTo}
                     onChange={props.handleChange}
-                    placeHolder="To Date"
+                    placeholder="To Date"
                 />
             </div>
             <div className="infoInput">

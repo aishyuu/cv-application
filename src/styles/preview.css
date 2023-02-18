@@ -6,6 +6,7 @@
     display: grid;
     grid-template-columns: 150mm 60mm;
     grid-template-rows: 35mm 262mm;
+    margin: 24px auto;
 }
 
 .previewHeader {

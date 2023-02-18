@@ -14,12 +14,12 @@ export default function EducationInput(props) {
                 />
             </div>
             <div className="infoInput">
-                <input 
-                    type="text" 
+            <input 
+                    type="text"
                     name="educationCity"
                     value={props.state.educationCity}
                     onChange={props.handleChange}
-                    placeholder="University City"
+                    placeholder="City"
                 />
             </div>
             <div className="infoInput">
@@ -41,9 +41,8 @@ export default function EducationInput(props) {
                 />
             </div>
             <div className="infoInput">
-                <p>Start</p>
                 <input 
-                    type="date"
+                    type="text"
                     name="educationStart"
                     value={props.state.educationStart}
                     onChange={props.handleChange}
@@ -51,9 +50,8 @@ export default function EducationInput(props) {
                 />
             </div>
             <div className="infoInput">
-                <p>End</p>
                 <input 
-                    type="date"
+                    type="text"
                     name="educationTo"
                     value={props.state.educationTo}
                     onChange={props.handleChange}

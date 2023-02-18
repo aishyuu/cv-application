@@ -3,7 +3,6 @@ import '../styles/preview.css'
 export default function PreviewCV({state}) {
     return(
         <div>
-            <h1>Output</h1>
             <div className="previewContainer">
                 <div className="previewHeader">
                     <h1>{state.firstName} {state.lastName}</h1>
@@ -29,6 +28,12 @@ export default function PreviewCV({state}) {
                     </section>
                     <section className="professionalInfoSub">
                         <h3 className="infoSubHeader">Education</h3>
+                        <div className="infoBlock">
+                            <h4>{state.educationName}</h4>
+                            <h4>{state.educationCity}</h4>
+                            <h4>{state.educationDegree} in {state.educationSubject}</h4>
+                            <h4>{state.educationStart} - {state.educationTo}</h4>
+                        </div>
                     </section>
                 </div>
                 <div className="previewAdditionalInfo">
