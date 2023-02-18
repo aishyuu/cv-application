@@ -54,6 +54,8 @@ export default function ExperienceInput(props) {
                     name="experienceDescription" 
                     rows="10"
                     placeholder="Job Description"
+                    value={props.state.experienceDescription}
+                    onChange={props.handleChange}
                 ></textarea>
             </div>
         </div>

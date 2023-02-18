@@ -60,9 +60,11 @@ export default function PersonalInput(props) {
             </div>
             <div className="infoInput">
                 <textarea
-                    name="" 
+                    name="description" 
                     rows="10"
                     placeholder='Description'
+                    value={props.state.description}
+                    onChange={props.handleChange}
                 ></textarea>
             </div>
         </div>
